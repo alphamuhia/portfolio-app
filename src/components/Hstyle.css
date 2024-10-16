@@ -1,0 +1,33 @@
+.container1 {
+  border: solid rgb(0, 0, 0);
+  height: 100%;
+  background-color: blue;
+}
+.homepage {
+  display: flex;
+  margin: 20px 40px;
+  padding-block: 0 45px;
+}
+.info {
+  border: solid blue;
+  border-radius: 40px;
+  width: 300px;
+  max-height: 250px;
+  text-align: center;
+}
+h3 {
+  color: aqua;
+  font-size: medium;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: 800;
+  color: antiquewhite;
+}
+img {
+  display: flex;
+  border: solid rgb(63, 63, 80);
+  border-radius: 320px;
+  height: 400px;
+  width: 400px;
+}
