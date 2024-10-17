@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
@@ -8,28 +8,29 @@ import { Link, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <nav className="navbar">
-        <div>
-          <Link to="/"></Link>
-        </div>
+      <nav className="bg-gray-500 p-0 shadow-lg ">
         <div className="list">
-          <ul>
-            <li>
-              <img src="images/alpha-logo.avif" alt="logo" />
-            </li>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
+          <div className="">
+            <button className="h-14">
+              <Link to="/">
+                <img
+                  src="images/alpha-logo.avif"
+                  alt="logo"
+                  className="box-border h-14 w-14 p-0"
+                />
+                <p className="bg-gray-400 w-14">Home</p>
+              </Link>
+            </button>
+            <button className="bg-red-500 hover:bg-red-700">
               <Link to="/about">About</Link>
-            </li>
-            <li>
+            </button>
+            <button className="bg-red-500 hover:bg-red-700">
               <Link to="/contacts">Contacts</Link>
-            </li>
-            <li>
+            </button>
+            <button className="bg-red-500 hover:bg-red-700">
               <Link to="/blog">Blog</Link>
-            </li>
-          </ul>
+            </button>
+          </div>
         </div>
       </nav>
 

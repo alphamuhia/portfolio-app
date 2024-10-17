@@ -1,5 +1,5 @@
 .App {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .navbar {
   width: 100%;
@@ -31,7 +31,6 @@ footer {
   text-align: center;
   padding: 10px 0;
   margin-top: auto;
-  position: fixed;
   bottom: 0%;
   width: 100%;
 }
@@ -43,8 +42,4 @@ footer p {
 footer a {
   color: #fff;
   text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }

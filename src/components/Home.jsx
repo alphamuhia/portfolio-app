@@ -1,16 +1,18 @@
 import React from "react";
-import "./Hstyle.css";
 
 function Home() {
   return (
     <div className="container1">
       <div className="homepage">
-        <div className="info">
+        <div className="bg-transparent">
           <h3>MY NAME IS ALPHA PETER</h3>
-          <h1>I am an Interne programer from Nairobi Kenya</h1>
+          <h1 className="text-8xl">
+            {" "}
+            I am an Interne programer from Nairobi Kenya
+          </h1>
         </div>
-        <div>
-          <img src="images/alpha.jpg" alt="" />
+        <div className="">
+          <img className="float-right" src="images/alpha.jpg" alt="" />
         </div>
       </div>
     </div>

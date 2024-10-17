@@ -1,28 +1,28 @@
 import React from "react";
-import form from "./form";
+import "../App";
 
 function About() {
   return (
     <div>
-      <h1>About page</h1>
-      <form />
-      <section>
-        <h2>My Journey to Local Cuisine</h2>
-        <p>
-          Alpha Peter's love for local cuisine began during his travels across
-          Kenya. As he explored the beautiful landscapes, he became fascinated
-          with the cultural richness of the regions he visited. Every town,
-          every village had its unique flavor, from the coastal delights in
-          Mombasa to the hearty stews of the Rift Valley.
-        </p>
-        <p>
-          With each new dish, Alpha discovered not just food but stories —
-          stories of the people who made them and the traditions they carried.
-          This fascination turned into a deep passion for cooking and savoring
-          the diverse flavors of Kenyan cuisine. Today, his travels are
-          incomplete without indulging in local delicacies and learning the
-          recipes that define Kenyan culture.
-        </p>
+      <section className="cont1">
+        <h2>More about Alpha</h2>
+        <div className="tin">
+          <p className="tin1">
+            Alpha Peter's love for local cuisine began during his travels across
+            Kenya. As he explored the beautiful landscapes, he became fascinated
+            with the cultural richness of the regions he visited. Every town,
+            every village had its unique flavor, from the coastal delights in
+            Mombasa to the hearty stews of the Rift Valley.
+          </p>
+          <p className="tin2">
+            With each new dish, Alpha discovered not just food but stories —
+            stories of the people who made them and the traditions they carried.
+            This fascination turned into a deep passion for cooking and savoring
+            the diverse flavors of Kenyan cuisine. Today, his travels are
+            incomplete without indulging in local delicacies and learning the
+            recipes that define Kenyan culture.
+          </p>
+        </div>
       </section>
 
       <section class="hero">
