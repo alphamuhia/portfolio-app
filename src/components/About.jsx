@@ -1,43 +1,27 @@
 import React from "react";
-import "../App";
 
 function About() {
   return (
-    <div>
-      <section className="cont1">
-        <h2>More about Alpha</h2>
-        <div className="tin">
-          <p className="tin1">
-            Alpha Peter's love for local cuisine began during his travels across
-            Kenya. As he explored the beautiful landscapes, he became fascinated
-            with the cultural richness of the regions he visited. Every town,
-            every village had its unique flavor, from the coastal delights in
-            Mombasa to the hearty stews of the Rift Valley.
-          </p>
-          <p className="tin2">
-            With each new dish, Alpha discovered not just food but stories —
-            stories of the people who made them and the traditions they carried.
-            This fascination turned into a deep passion for cooking and savoring
-            the diverse flavors of Kenyan cuisine. Today, his travels are
-            incomplete without indulging in local delicacies and learning the
-            recipes that define Kenyan culture.
-          </p>
-        </div>
-      </section>
-
-      <section class="hero">
-        <div class="overlay-text">
-          <p>
-            Peter, a young man in his late twenties, lived in the heart of
-            Nairobi, Kenya. His life was a delicate balance between work and
-            passion. By day, he was a diligent website designer, working
-            freelance from his cozy apartment. By night, his world shifted to
-            virtual adventures, diving deep into games and watching anime and
-            movies.{" "}
-          </p>
-        </div>
-      </section>
-    </div>
+    <section className="py-40 bg-gray-900 text-gray-500">
+      <div className="container mx-auto px-6 text-center">
+        <h2 className="text-3xl font-semibold mb-6">About Me</h2>
+        <p className="max-w-3xl mx-auto leading-relaxed">
+          Hello! I’m Alpha Peter, a dedicated software engineer with a passion
+          for creating innovative and efficient solutions. Over the years, I’ve
+          honed my skills in coding, problem-solving, and software development,
+          allowing me to deliver high-quality and impactful results. My journey
+          started with a deep interest in technology, and since then, I’ve been
+          involved in various projects across different industries, continuously
+          learning and refining my approach. I thrive on solving complex
+          challenges and bringing fresh perspectives to every project I take on.
+          When I’m not working on my latest software project, you can find me
+          exploring new tech trends or enjoying some downtime with coding side
+          projects. I believe in continuous growth and pushing the boundaries of
+          what software can achieve. Let’s collaborate and create something
+          amazing together!
+        </p>
+      </div>
+    </section>
   );
 }
 
